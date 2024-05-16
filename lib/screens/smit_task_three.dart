@@ -49,7 +49,7 @@ class TaskThree extends StatelessWidget {
                 ),
                 Text(
                   textAlign: TextAlign.center,
-                  'Your account is ready to youse',style: TextStyle(fontSize: 15),
+                  'Your account is ready to use',style: TextStyle(fontSize: 15),
                 ),
                 SizedBox(
                   height: 25,
