@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:smit_ui_project/screens/instagram.dart';
 import 'package:smit_ui_project/screens/instagram_ui.dart';
 import 'package:smit_ui_project/screens/login_with_screen.dart';
 import 'package:smit_ui_project/screens/navigate_to_second.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const InstgramUi(),
+      home: const Instagram(),
     );
   }
 }
