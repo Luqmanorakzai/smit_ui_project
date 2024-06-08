@@ -6,6 +6,8 @@ import 'package:smit_ui_project/screens/navigate_to_second.dart';
 import 'package:smit_ui_project/screens/smit_task_one.dart';
 import 'package:smit_ui_project/screens/smit_task_three.dart';
 import 'package:smit_ui_project/screens/smit_tast_two.dart';
+import 'package:smit_ui_project/screens/t_shirt_second.dart';
+import 'package:smit_ui_project/screens/t_shirt_shop.dart';
 import 'package:smit_ui_project/screens/task_fourth.dart';
 
 void main() {
@@ -25,7 +27,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Instagram(),
+      home: const TShirtShop(),
     );
   }
 }
