@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:smit_ui_project/screens/t_shirt_shop.dart';
+import 'package:smit_ui_project/custom_widgets/cutom_shirt_isze_selection.dart';
+import 'package:smit_ui_project/screens/t_shirt_third_screen.dart';
 
 class TShirtSecond extends StatelessWidget {
   final shirtName;
@@ -73,7 +74,6 @@ class TShirtSecond extends StatelessWidget {
                         Padding(
                           padding: const EdgeInsets.only(top: 8.0),
                           child: Text(
-
                             '${shirtName}',
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
@@ -86,8 +86,13 @@ class TShirtSecond extends StatelessWidget {
                           height: 250,
                           fit: BoxFit.cover,
                         ),
-                        SizedBox(height: 10,),
-                        Text('$price',style: TextStyle(color: Colors.redAccent),)
+                        SizedBox(
+                          height: 10,
+                        ),
+                        Text(
+                          '$price',
+                          style: TextStyle(color: Colors.redAccent),
+                        )
                       ],
                     ),
                   ),
@@ -114,91 +119,19 @@ class TShirtSecond extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Container(
-                      height: 50,
-                      width: 50,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(25),
-                        border:
-                            Border.all(color: Colors.grey.withOpacity(0.25)),
-                        boxShadow: [
-                          BoxShadow(
-                              blurStyle: BlurStyle.normal,
-                              color: Colors.grey.withOpacity(0.20)),
-                        ],
-                      ),
-                      child: Center(
-                          child: Text(
-                        '35',
-                        style: TextStyle(fontSize: 24),
-                      )),
-                    ),
+                    CustomShirtSize(),
                     SizedBox(
                       width: 8,
                     ),
-                    Container(
-                      height: 50,
-                      width: 50,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(25),
-                        border:
-                            Border.all(color: Colors.grey.withOpacity(0.25)),
-                        boxShadow: [
-                          BoxShadow(
-                              blurStyle: BlurStyle.normal,
-                              color: Colors.grey.withOpacity(0.20)),
-                        ],
-                      ),
-                      child: Center(
-                          child: Text(
-                        '36',
-                        style: TextStyle(fontSize: 24),
-                      )),
-                    ),
+                    CustomShirtSize(),
                     SizedBox(
                       width: 8,
                     ),
-                    Container(
-                      height: 50,
-                      width: 50,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(25),
-                        border:
-                            Border.all(color: Colors.grey.withOpacity(0.25)),
-                        boxShadow: [
-                          BoxShadow(
-                              blurStyle: BlurStyle.normal,
-                              color: Colors.grey.withOpacity(0.20)),
-                        ],
-                      ),
-                      child: Center(
-                          child: Text(
-                        '37',
-                        style: TextStyle(fontSize: 24),
-                      )),
-                    ),
+                    CustomShirtSize(),
                     SizedBox(
                       width: 8,
                     ),
-                    Container(
-                      height: 50,
-                      width: 50,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(25),
-                        border:
-                            Border.all(color: Colors.grey.withOpacity(0.25)),
-                        boxShadow: [
-                          BoxShadow(
-                              blurStyle: BlurStyle.normal,
-                              color: Colors.grey.withOpacity(0.20)),
-                        ],
-                      ),
-                      child: Center(
-                          child: Text(
-                        '38',
-                        style: TextStyle(fontSize: 24),
-                      )),
-                    ),
+                    CustomShirtSize(),
                   ],
                 ),
                 SizedBox(
@@ -206,16 +139,26 @@ class TShirtSecond extends StatelessWidget {
                 ),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 8.0),
-                  child: Container(
-                    height: 50,
-                    decoration: BoxDecoration(
-                      color: Colors.red,
-                      borderRadius: BorderRadius.circular(8),
-                    ),
-                    child: Center(
-                      child: Text(
-                        'BUY NEW',
-                        style: TextStyle(fontSize: 16, color: Colors.white),
+                  child: GestureDetector(
+
+                    onTap: (){
+                      Navigator.of(context).push(MaterialPageRoute(builder: (context){
+                        return TShirtThirdScreen(
+                          shirtImages: shirtImages,
+                        );
+                      }));
+                    },
+                    child: Container(
+                      height: 50,
+                      decoration: BoxDecoration(
+                        color: Colors.red,
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      child: Center(
+                        child: Text(
+                          'BUY NOW',
+                          style: TextStyle(fontSize: 16, color: Colors.white),
+                        ),
                       ),
                     ),
                   ),
