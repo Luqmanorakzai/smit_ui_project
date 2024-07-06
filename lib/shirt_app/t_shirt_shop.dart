@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:smit_ui_project/screens/t_shirt_second.dart';
+import 'package:smit_ui_project/shirt_app/t_shirt_second.dart';
 
 import '../custom_widgets/cutom_fav_icon.dart';
 

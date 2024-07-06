@@ -29,8 +29,8 @@ class ThirdScreen extends StatelessWidget {
                 child: Row(
                   children: [
                     Container(
-                      child: Padding(
-                        padding: const EdgeInsets.only(top: 30,left: 12),
+                      child: const Padding(
+                        padding: EdgeInsets.only(top: 30,left: 12),
                         child: Column(
                           children: [
                             Text(
@@ -42,7 +42,7 @@ class ThirdScreen extends StatelessWidget {
                               height: 14,
                             ),
                             Padding(
-                              padding: const EdgeInsets.only(right: 60),
+                              padding: EdgeInsets.only(right: 60),
                               child: Text(
                                 textAlign: TextAlign.start,
                                 '22\$',
@@ -64,14 +64,14 @@ class ThirdScreen extends StatelessWidget {
                         ),
                       ),
                     ),
-                    SizedBox(
+                   const SizedBox(
                       width: 20,
                     ),
                     Container(
                       height: 200,
                       width: 200,
                       color: Colors.white,
-                      child: Padding(
+                      child: const Padding(
                         padding: const EdgeInsets.all(12.0),
                         child: Column(
         
@@ -102,7 +102,7 @@ class ThirdScreen extends StatelessWidget {
                 child: Row(
                   children: [
                     Container(
-                      child: Padding(
+                      child:const  Padding(
                         padding: const EdgeInsets.only(top: 30,left: 12),
                         child: Column(
                           children: [
@@ -137,15 +137,15 @@ class ThirdScreen extends StatelessWidget {
                         ),
                       ),
                     ),
-                    SizedBox(
+                     const SizedBox(
                       width: 20,
                     ),
                     Container(
                       height: 200,
                       width: 200,
                       color: Colors.white,
-                      child: Padding(
-                        padding: const EdgeInsets.all(12.0),
+                      child: const Padding(
+                        padding: EdgeInsets.all(12.0),
                         child: Column(
         
                           children: [
@@ -175,8 +175,8 @@ class ThirdScreen extends StatelessWidget {
                 child: Row(
                   children: [
                     Container(
-                      child: Padding(
-                        padding: const EdgeInsets.only(top: 30,left: 12),
+                      child: const Padding(
+                        padding: EdgeInsets.only(top: 30,left: 12),
                         child: Column(
                           children: [
                             Text(
@@ -188,7 +188,7 @@ class ThirdScreen extends StatelessWidget {
                               height: 14,
                             ),
                             Padding(
-                              padding: const EdgeInsets.only(right: 60),
+                              padding: EdgeInsets.only(right: 60),
                               child: Text(
                                 textAlign: TextAlign.start,
                                 '44\$',
@@ -210,15 +210,15 @@ class ThirdScreen extends StatelessWidget {
                         ),
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       width: 20,
                     ),
                     Container(
                       height: 200,
                       width: 200,
                       color: Colors.white,
-                      child: Padding(
-                        padding: const EdgeInsets.all(12.0),
+                      child: const Padding(
+                        padding: EdgeInsets.all(12.0),
                         child: Column(
         
                           children: [
@@ -248,8 +248,8 @@ class ThirdScreen extends StatelessWidget {
                 child: Row(
                   children: [
                     Container(
-                      child: Padding(
-                        padding: const EdgeInsets.only(top: 30,left: 12),
+                      child: const Padding(
+                        padding: EdgeInsets.only(top: 30,left: 12),
                         child: Column(
                           children: [
                             Text(
@@ -261,7 +261,7 @@ class ThirdScreen extends StatelessWidget {
                               height: 14,
                             ),
                             Padding(
-                              padding: const EdgeInsets.only(right: 60),
+                              padding: EdgeInsets.only(right: 60),
                               child: Text(
                                 textAlign: TextAlign.start,
                                 '50\$',
@@ -283,15 +283,15 @@ class ThirdScreen extends StatelessWidget {
                         ),
                       ),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       width: 20,
                     ),
                     Container(
                       height: 200,
                       width: 200,
                       color: Colors.white,
-                      child: Padding(
-                        padding: const EdgeInsets.all(12.0),
+                      child: const Padding(
+                        padding: EdgeInsets.all(12.0),
                         child: Column(
         
                           children: [

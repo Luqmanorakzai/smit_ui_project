@@ -71,7 +71,7 @@ class TaskThree extends StatelessWidget {
                           }));
 
                         },
-                        child: Text('Go to Home',style: TextStyle(fontSize: 20,color: Colors.white),),
+                        child: const  Text('Go to Home',style: TextStyle(fontSize: 20,color: Colors.white),),
                       ),
                     ),
                   ),

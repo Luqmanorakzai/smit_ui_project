@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:smit_ui_project/custom_widgets/cutom_shirt_isze_selection.dart';
-import 'package:smit_ui_project/screens/t_shirt_third_screen.dart';
+import 'package:smit_ui_project/shirt_app/t_shirt_third_screen.dart';
 
 class TShirtSecond extends StatelessWidget {
   final shirtName;
@@ -149,6 +149,7 @@ class TShirtSecond extends StatelessWidget {
                       }));
                     },
                     child: Container(
+
                       height: 50,
                       decoration: BoxDecoration(
                         color: Colors.red,
