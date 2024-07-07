@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:smit_ui_project/screens/media_query_screen.dart';
 import 'package:smit_ui_project/screens/review_testfield_screen.dart';
+import 'package:smit_ui_project/screens/stack_design.dart';
 import 'package:smit_ui_project/screens/text_fields.dart';
 
 void main() {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const TextFieldsScreen(),
+      home: const StackDesginScreen(),
     );
   }
 }

@@ -41,7 +41,8 @@ class ReviewTestField extends StatelessWidget {
                       width: 190,
                       'assets/images/luqman.jpeg',
                       fit: BoxFit.fill,
-                    )),
+                    )
+                ),
                 Gap(14),
                 RichText(
                     text: TextSpan(
