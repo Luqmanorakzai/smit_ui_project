@@ -85,22 +85,22 @@ class StackDesginScreen extends StatelessWidget {
                                 children: [
                                   Column(
                                     children: [
-                                      Text('Muhajir Bazar',style: TextStyle(fontSize: 12),),
+                                      Text('Purchased',style: TextStyle(fontSize: 12),),
                                       Text('120',style: TextStyle(fontSize: 14),)
                                     ],
                                   ),
-                                  SizedBox(width: 15,),
+                                  SizedBox(width: 50,),
                                   Column(
                                     children: [
-                                      Text('Muhajir Bazar',style: TextStyle(fontSize: 12),),
+                                      Text('Shares',style: TextStyle(fontSize: 12),),
                                       Text('120',style: TextStyle(fontSize: 14),)
                                     ],
-
+                              
                                   ),
-                                  SizedBox(width: 15,),
-                                  Column(
+                                  SizedBox(width: 50,),
+                                   Column(
                                     children: [
-                                      Text('Muhajir Bazar',style: TextStyle(fontSize: 12),),
+                                      Text('Likes',style: TextStyle(fontSize: 12),),
                                       Text('120 K',style: TextStyle(fontSize: 14),)
                                     ],
                                   ),
